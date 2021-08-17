@@ -1,12 +1,21 @@
 package com.cego.cego.domain.dto;
 
+import io.swagger.annotations.ApiModelProperty;
+
 public class Citizenattention {
+    @ApiModelProperty(notes="Identificador de atencion al ciudadano")
     private Integer atencionciudadanoId;
+    @ApiModelProperty(notes="Nombre de la Unidad")
     private String nombreunidadId;
+    @ApiModelProperty(notes="Nombre del Gestor")
     private String nombregestorId;
+    @ApiModelProperty(notes="Email del Gestor")
     private String emailgestorId;
+    @ApiModelProperty(notes="Direccion de la Unidad")
     private String direccionunidadId;
+    @ApiModelProperty(notes="Ciudad de la Unidad")
     private String ciudadId;
+    @ApiModelProperty(notes="Departamento de la Unidad")
     private String departamentoId;
 
     public Integer getAtencionciudadanoId() {

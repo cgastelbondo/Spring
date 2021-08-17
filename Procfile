@@ -1,0 +1,1 @@
+web: java -jar -Dspring.profiles.active=prod build/libs/cego-1.0.0.jar
